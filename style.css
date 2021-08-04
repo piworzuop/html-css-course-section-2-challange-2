@@ -1,10 +1,11 @@
 body {
   font-family: sans-serif;
   color: #202020;
+  line-height: 1.4;
 }
 
 .article-main {
-  border: 5px solid black;
+  border: 4px solid black;
 }
 
 .article-main h2,
@@ -33,11 +34,13 @@ body {
   font-size: 1rem;
 }
 
-.article-main a {
+.more-info-link:link,
+.more-info-link:visited {
   color: inherit;
 }
 
-.article-main a:hover {
+.more-info-link:hover,
+.more-info-link:active {
   text-decoration: none;
 }
 
@@ -51,6 +54,7 @@ body {
   color: white;
   font-size: 1.3rem;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .add-cart:hover {
